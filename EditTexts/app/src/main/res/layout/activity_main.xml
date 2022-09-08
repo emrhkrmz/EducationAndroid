@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alwaysDrawnWithCache="false"
+    android:animateLayoutChanges="false"
+    android:animationCache="false"
+    android:background="#BBC648"
+    android:backgroundTint="#85D24A"
+    android:baselineAligned="false"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageViewExample"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:layout_weight="0"
+        app:srcCompat="@drawable/wallhaven004" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0"
+        android:background="#FFED7E"
+        android:ems="10"
+        android:hint="please write your name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonOk"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0"
+        android:background="#FFED7E"
+        android:text="OK"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0"
+        android:background="#FFED7E"
+        android:gravity="center"
+        android:hint="result"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>
