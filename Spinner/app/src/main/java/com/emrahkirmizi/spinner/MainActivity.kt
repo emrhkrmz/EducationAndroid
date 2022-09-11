@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         spinner = findViewById(R.id.spinnerCountry)
         result = findViewById(R.id.result)
 
+        spinner.onItemSelectedListener = this
+
         var arrayAdapter = ArrayAdapter.createFromResource(
             this,
             R.array.countries,
@@ -33,7 +35,11 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
     }
 
     override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-        TODO("Not yet implemented")
+
+        if (parent != null) {
+            result.text = parent.getItemAtPosition(position).toString()
+        }
+
     }
 
     override fun onNothingSelected(parent: AdapterView<*>?) {
