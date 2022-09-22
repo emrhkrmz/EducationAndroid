@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
+
     lateinit var  recyclerView: RecyclerView
 
     var countryNameList = ArrayList<String>()

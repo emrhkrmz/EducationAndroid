@@ -41,13 +41,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:text="TextView"
-                android:textColor="#000000"
+                android:textColor="@color/black"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toTopOf="@+id/textViewDetails"
                 app:layout_constraintStart_toEndOf="@+id/imageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
+                android:textColor="@color/black"
                 android:id="@+id/textViewDetails"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
