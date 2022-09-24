@@ -14,5 +14,10 @@ class SecondActivity : AppCompatActivity() {
 
         result = findViewById(R.id.textView)
 
+        val userName: String = intent.getStringExtra("username").toString()
+        val userAge: Int = intent.getIntExtra("userage",0)
+
+        result.text = "Your name is $userName and your age is $userAge"
+
     }
 }

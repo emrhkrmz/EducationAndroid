@@ -22,7 +22,15 @@ class MainActivity : AppCompatActivity() {
 
         send.setOnClickListener {
 
-            var intent = Intent()
+            var userName: String = name.text.toString()
+            var userAge: Int = age.text.toString().toInt()
+
+            var intent = Intent(this@MainActivity, SecondActivity::class.java)
+
+            intent.putExtra("username", userName)
+            intent.putExtra("userage", userAge)
+
+            startActivity(intent)
 
         }
 
