@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        name = findViewById(R.id.editTextAge)
-        age = findViewById(R.id.editTextName)
+        name = findViewById(R.id.editTextName)
+        age = findViewById(R.id.editTextAge)
         send = findViewById(R.id.button)
 
         send.setOnClickListener {
