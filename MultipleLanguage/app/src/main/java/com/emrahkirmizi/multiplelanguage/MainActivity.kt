@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         show.setOnClickListener {
 
             Toast.makeText(applicationContext,R.string.toast,Toast.LENGTH_LONG).show()
+            //applicationContext: uygulama bağlamı
+            //"mesaj"
 
         }
 
