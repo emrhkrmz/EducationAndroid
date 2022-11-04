@@ -27,7 +27,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textViewScore"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -47,7 +47,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textViewLife"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -67,7 +67,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/textViewTime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -79,7 +79,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textViewQuestion"
         android:layout_width="300dp"
         android:layout_height="75dp"
         android:layout_marginTop="20dp"
@@ -90,7 +90,7 @@
         android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/editTextAnswer"
         android:layout_width="300dp"
         android:layout_height="75dp"
         android:layout_marginTop="20dp"
@@ -110,7 +110,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/buttonOk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -124,7 +124,7 @@
             app:iconPadding="20sp" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/buttonNext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
