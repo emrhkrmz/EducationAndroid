@@ -19,8 +19,12 @@ class MainActivity : AppCompatActivity() {
         subtraction = findViewById(R.id.buttonSub)
         multi = findViewById(R.id.buttonMulti)
 
-        val intent = Intent (this@MainActivity,GameActivity::class.java)
-        startActivity(intent)
+        addition.setOnClickListener {
+
+            val intent = Intent (this@MainActivity,GameActivity::class.java)
+            startActivity(intent)
+
+        }
 
     }
 }
